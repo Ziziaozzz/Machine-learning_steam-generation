@@ -17,3 +17,7 @@ We have one training set and one testing set of data. A 'target' variable is in 
 [Modeling](https://github.com/Ziziaozzz/Machine-learning_steam-generation/blob/main/Modeling.ipynb)  
 [Model optimization](https://github.com/Ziziaozzz/Machine-learning_steam-generation/blob/main/Model%20optimization.ipynb)  
 [Stacking](https://github.com/Ziziaozzz/Machine-learning_steam-generation/blob/main/Stacking.ipynb)  
+
+
+## Observation
+After adding the process of feature selection with correlation coeff. threshold, the Mean_MSE decreases from 0.126 to 0.114. The performance of SVR and KNN model significantly improves (SVR: MSE decreases from 0.653 to 0.119; KNN: MSE decreases from 0.276 to 0.131). Other models (Ridge, Lasso, ensemble methods) are not affected much.
